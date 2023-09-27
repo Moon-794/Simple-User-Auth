@@ -1,0 +1,30 @@
+p
+{
+    color: blue;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.center
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.cols
+{
+    flex-direction: column;
+}
+
+.rows
+{
+    flex-direction: row;
+}
+
+#main-container
+{
+    background-color: aquamarine;
+}
