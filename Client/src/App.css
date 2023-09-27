@@ -1,6 +1,7 @@
 p
 {
     color: blue;
+    margin: 0;
 }
 
 .flex
@@ -24,7 +25,21 @@ p
     flex-direction: row;
 }
 
+.txt-input
+{
+    margin: 0 0 0.5rem 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#submit-button
+{
+    width: 60%;
+    border-radius: 0;
+    border: none;
+}
+
 #main-container
 {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }

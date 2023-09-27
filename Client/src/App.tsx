@@ -6,10 +6,12 @@ function App()
         <div id="main-container" className='flex center'>
             <form action="login" method="post" className='flex cols'>
                 <p>Email:</p>
-                <input type="email" name="user-email" id="user-email" />
+                <input className='txt-input' type="email" name="user-email" id="user-email" />
                 <p>Password:</p>
-                <input type="password" name="user-password" id="user-password" />
-                <input type="submit" value="Login" />
+                <input className='txt-input' type="password" name="user-password" id="user-password" />
+                <div className='flex center'>                
+                    <input id='submit-button' type="submit" value="Login" />
+                </div>
             </form>
         </div>
     )
