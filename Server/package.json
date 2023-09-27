@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Auth Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moon-794/Simple-User-Auth.git"
+  },
+  "author": "Connor Mooney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Moon-794/Simple-User-Auth/issues"
+  },
+  "homepage": "https://github.com/Moon-794/Simple-User-Auth#readme"
+}
