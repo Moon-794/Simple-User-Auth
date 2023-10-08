@@ -1,6 +1,12 @@
 p
 {
-    color: blue;
+    color: rgb(20, 20, 20);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body
+{
     margin: 0;
 }
 
@@ -27,19 +33,64 @@ p
 
 .txt-input
 {
-    margin: 0 0 0.5rem 0;
+    margin: 0.5rem 0 0.5rem 0;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgb(54, 54, 54);
+    background-color: rgb(233, 233, 233);
+
+    min-width: 18rem;
 }
 
-#submit-button
+.form-btn
 {
-    width: 60%;
+    min-width: 90px;
+    margin: 10px 2px 0 2px;
+    height: 1.5rem;
     border-radius: 0;
     border: none;
+    background-color: rgb(37, 37, 37);
+    color: rgb(233, 233, 233);
 }
 
 #main-container
 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 233, 233);
+    border: 2px solid black;
+    padding: 2rem;
+    box-shadow: -10px 10px;
+}
+
+#root
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+
+    height: 100vh;
+    width: 100vw;
+}
+
+h1
+{
+    font-family: monospace;
+    margin: 0;
+    color: rgb(233, 233, 233);
+}
+
+.header
+{
+    margin: 0;
+}
+
+.txt-input:focus
+{
+    outline: 0;
+}
+
+.form-btn:hover
+{
+    outline: 0;
+    border-bottom: 4px solid rgb(138, 138, 138);
 }
