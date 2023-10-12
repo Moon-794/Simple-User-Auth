@@ -13,6 +13,7 @@ body
 .flex
 {
     display: flex;
+    transition: height 2s ease-in;
 }
 
 .center
@@ -93,4 +94,9 @@ h1
 {
     outline: 0;
     border-bottom: 4px solid rgb(138, 138, 138);
+}
+
+#button-div
+{
+    flex-direction: column;
 }
