@@ -5,6 +5,16 @@ p
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.show
+{
+    display: all;
+}
+
+.hide
+{
+    display: none;
+}
+
 body
 {
     margin: 0;
@@ -19,7 +29,7 @@ body
 .flex
 {
     display: flex;
-    transition: height 2s ease-in;
+    transition: height 25s ease-in;
 }
 
 .center
@@ -81,6 +91,22 @@ input:-webkit-autofill
     border-radius: 2rem;
 }
 
+.height-transition
+{
+    overflow: hidden;
+    transition: height 300ms;
+}
+
+.height-login
+{
+    height: 20rem;
+}
+
+.height-register
+{
+    height: 25rem;
+}
+
 #root
 {
     display: flex;
@@ -120,4 +146,26 @@ h1
 #button-div
 {
     flex-direction: column;
+}
+
+.child-fade-enter 
+{
+    height: 0;
+}
+  
+.child-fade-enter-active 
+{
+    height: auto;
+    transition: height 300ms;
+}
+  
+.child-fade-exit 
+{
+    height: auto;
+}
+  
+.child-fade-exit-active 
+{
+    height: 0;
+    transition: height 300ms;
 }

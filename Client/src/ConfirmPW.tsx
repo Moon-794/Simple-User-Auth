@@ -7,12 +7,11 @@ interface PWConfirmProps
 
 const ConfirmPassword: FC<PWConfirmProps> = ({registering}) =>
 {
-    if(registering == "Register")
+    if(registering == "register")
     {
         return(
         <>
-            <p>Confirm Password</p>
-            <input className='txt-input' type="password" name="confirm-password" id="confirm-password" />
+            <p>hellohahah</p>
         </>
         )
     }
