@@ -35,9 +35,9 @@ function App()
                     ) : null
                     
                 }
-                <p id='signup'>Sign up</p>
+                <p id='signup' onClick={handleClick}>{mode == "register" ? "login" : "sign up"}</p>
                 <div className='flex center' id="button-div">                
-                    <input id='submit-button' onClick={handleClick} className='form-btn' type="submit" value="Login" />;
+                    <input id='submit-button' className='form-btn' type="submit" value={mode == "register" ? "Register" : "Login"}/>;
                 </div>
             </form>
         </div>
