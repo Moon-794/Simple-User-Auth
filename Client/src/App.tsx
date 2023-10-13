@@ -16,8 +16,8 @@ function App()
 
     return (
     <>
-        
-        <div key="main-con" id="main-container" className={'flex center height-transition' + ' ' + (mode == "register" ? 'height-register' : 'height-login')}>
+        <CSSTransition>
+        <div key="main-con" id="main-container" className={'flex center height-transition'}>
             <div className='header'>    
                 <h1>LOGIN</h1>
             </div>
@@ -41,6 +41,7 @@ function App()
                 </div>
             </form>
         </div>
+        </CSSTransition>
     </>
     )
 }
